@@ -1,0 +1,18 @@
+// Player
+BITMAP,aim,aim.png
+BITMAP,shell,shell.png
+// Chicken
+BITMAP,s_chicken,s_chicken.png
+BITMAP,l_chicken,l_chicken.png
+BITMAP,chicken,chicken.png
+// chichkens
+BITMAP,ani_chicken,ani_chicken.png,143,152,1,13,13
+BITMAP,ani_chicken_s,ani_chicken_s.png,68,74,1,13,13
+BITMAP,ani_chicken_l,ani_chicken_l.png,200,217,1,13,13
+// Background
+BITMAP,field,field.png
+// Animation
+ANIM,coins,coin_animation.txt
+ANIM,chicken,chicken_animation.txt
+ANIM,chicken_s,chicken_animation_s.txt
+ANIM,chicken_l,chicken_animation_l.txt
