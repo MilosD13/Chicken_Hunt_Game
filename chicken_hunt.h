@@ -19,13 +19,13 @@ struct game_data
 };
 
 /* loops trough the game */
-void game_loop(player_data &player, vector<chicken_data> &chickens,game_data &game);
+void game_loop(player_data &player, vector<chicken_data> &chickens, game_data &game);
 
 /* updates the game */
 void update_game(player_data &player, vector<chicken_data> &chickens);
 
-/* draws player and ducks */
-void draw_game(player_data &player, vector<chicken_data> &chickens,game_data &game);
+/* draws player and ducks on screen */
+void draw_game(player_data &player, vector<chicken_data> &chickens, game_data &game);
 
 /* combines whole game in one statement to be used in main */
 game_data new_game();
